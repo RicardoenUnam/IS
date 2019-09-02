@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Quote</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="quotes.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</head>
+<body id="cuerpo">
+    <div id="wrapper">
+        <blockquote id="quote-box" class="centered">
+            <p id="text" class="mb-0">"Life is what happens to you while you’re busy making other plans."</p>
+            <footer id="author" class="blockquote-footer"><cite title="Source Title">John Lennon</cite>
+            </footer>
+            <div class="buttons">
+                <a class="btn" id="tweet-quote" href="https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22Life%20is%20what%20happens%20to%20you%20while%20you%E2%80%99re%20busy%20making%20other%20plans.%22%20John%20Lennon" target="_blank"><i class="fa fa-twitter"></i></button></a>
+                <button onclick="myFunction()" id="new-quote" class="btn btn-light"><i class="fa fa-arrow-right"></i></button>
+                
+            </div>
+        </blockquote>
+
+
+    </div>
+    <script src="quotes.js"></script>
+</body>
+</html>
